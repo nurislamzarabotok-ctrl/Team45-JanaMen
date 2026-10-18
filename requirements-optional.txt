@@ -1,0 +1,2 @@
+# Only needed for content search inside text-based PDFs.
+pypdf>=5,<7

@@ -1,0 +1,54 @@
+/* iPhone Safari + installed PWA. Desktop design remains unchanged. */
+:root{--mobile-bar-height:64px;--visual-height:100dvh}
+.mobile-tabs,.mobile-sync,.pwa-update{display:none}
+@media(max-width:760px){
+ html{-webkit-text-size-adjust:100%;scroll-padding-bottom:100px}
+ body{min-height:100vh;min-height:100dvh;padding-bottom:calc(var(--mobile-bar-height) + env(safe-area-inset-bottom));-webkit-tap-highlight-color:transparent}
+ .layout{min-height:calc(100dvh - var(--mobile-bar-height) - env(safe-area-inset-bottom))}
+ .utility-bar{height:auto;min-height:44px;padding-top:env(safe-area-inset-top);padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+ .content{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+ input,textarea,select,.queue-search input,.inline-form input{font-size:16px!important;min-width:0;max-width:100%}
+ input[type=date],input[type=month]{min-height:48px;width:100%;-webkit-appearance:none;appearance:none;background:var(--surface);color:var(--text)}
+ input[type=date]::-webkit-date-and-time-value{text-align:left}
+ input[type=checkbox],input[type=radio]{min-width:20px;min-height:20px}
+ button.icon-btn,.nav button,.password-toggle{min-width:44px;min-height:44px}
+ .mobile-tabs{position:fixed;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));bottom:0;left:0;right:0;z-index:35;min-height:var(--mobile-bar-height);padding:4px max(8px,env(safe-area-inset-right)) calc(4px + env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));border-top:1px solid var(--border);background:var(--surface)}
+ .mobile-tabs button{border:0;border-radius:9px;background:transparent;color:var(--muted);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:54px;padding:5px 3px;font-size:11px;line-height:1.2;font-weight:600}
+ .mobile-tabs .svg{width:22px;height:22px}.mobile-tabs button.active{background:var(--soft);color:var(--accent)}
+ .mobile-sync{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 16px 0;color:var(--muted);font-size:12px;min-height:32px}
+ .mobile-sync button{font:inherit;color:var(--accent);border:0;background:none;min-height:44px;padding:8px}
+ .mobile-sync[data-status=offline]{color:var(--amber)}
+ .sidebar{height:100vh;height:100dvh;max-height:var(--visual-height);bottom:auto;padding-top:calc(16px + env(safe-area-inset-top));padding-bottom:calc(20px + env(safe-area-inset-bottom));overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
+ .drawer-head{flex-shrink:0}.sidebar-bottom{padding-top:12px}.drawer-tools .btn{min-width:125px}
+ html.mobile-menu-open,html.mobile-menu-open body{overflow:hidden;overscroll-behavior:none}
+ html.modal-open .mobile-tabs,html.mobile-menu-open .mobile-tabs{visibility:hidden}
+ dialog{position:fixed;top:calc(var(--visual-top,0px) + 8px);bottom:auto;margin:0 auto;max-height:calc(var(--visual-height) - 16px);height:auto;width:calc(100% - 24px);left:0;right:0;overflow:hidden;border-radius:16px;display:none}
+ dialog[open]{display:flex;flex-direction:column}
+ .modal-head{position:relative;flex:0 0 auto;padding:18px 20px;min-height:68px;background:var(--surface);z-index:3}
+ .modal-head h2{font-size:21px;overflow-wrap:anywhere}
+ .modal-body{max-height:none!important;min-height:0;flex:1 1 auto;overflow:auto;padding:20px;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scroll-padding-bottom:90px}
+ .modal-body form>.modal-actions{bottom:-20px;flex-wrap:wrap;padding:12px 0 calc(12px + env(safe-area-inset-bottom));margin-bottom:-20px;gap:8px}
+ .modal-actions>.btn{flex:1;min-width:110px;min-height:48px}
+ .chat-input textarea{font-size:16px;min-height:48px;max-height:130px;resize:none}
+ .chat-input .btn{min-width:48px;min-height:48px}
+ .message-text,.kb-body,.task-card strong,.file-row a{overflow-wrap:anywhere;word-break:normal}
+ .keyboard-open .mobile-tabs{display:none}.keyboard-open body{padding-bottom:0}
+ #toast{bottom:calc(var(--mobile-bar-height) + env(safe-area-inset-bottom) + 12px);max-width:calc(100vw - 32px);width:max-content;pointer-events:none}
+ .keyboard-open #toast{bottom:16px}
+ .login-page{padding-top:calc(20px + env(safe-area-inset-top));padding-bottom:calc(24px + env(safe-area-inset-bottom))}
+ body.login-mobile{padding-bottom:0}
+ .pwa-update{display:flex;margin:12px 16px;padding:12px;gap:12px;align-items:center;border:1px solid var(--border);border-radius:10px;background:var(--soft);font-size:14px}
+ .pwa-update button{min-height:44px}.pwa-update[hidden]{display:none}
+ .site-footer{padding-bottom:24px}
+}
+@media(max-width:760px) and (orientation:landscape){.sidebar{width:min(390px,calc(100% - 48px));padding-top:12px}.modal-head{min-height:54px;padding:8px 16px}.mobile-tabs{--mobile-bar-height:54px}.mobile-tabs button{min-height:44px}}
+@media(prefers-reduced-motion:reduce){.sidebar{transition:none}}
+
+@media(max-width:760px){html.modal-open,html.modal-open body{overflow:hidden;overscroll-behavior:none}}
+
+@media(max-width:760px){.modal-body form>.modal-actions{position:static;margin-bottom:0;padding-bottom:calc(12px + env(safe-area-inset-bottom))}}
+@media(max-width:760px){
+ .sidebar{overflow-x:hidden}.drawer-head{gap:8px;min-width:0}
+ .drawer-head .logo{min-width:0;flex:1;gap:8px}.drawer-head .logo img{width:60px;height:auto}.drawer-head .logo-divider{display:none}.drawer-head .product-name{font-size:21px;white-space:nowrap}.drawer-head>.icon-btn{flex:0 0 44px}
+ .sidebar-bottom>[data-action=install]{width:100%;margin-bottom:12px}
+}

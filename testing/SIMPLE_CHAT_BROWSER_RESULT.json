@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "question": "Привет",
+      "mode": "anymodel"
+    },
+    {
+      "question": "Как изменить цвет фона?",
+      "mode": "anymodel"
+    },
+    {
+      "question": "Сейчас ИИ работает? Если да, скажи Ноу",
+      "mode": "anymodel"
+    }
+  ],
+  "history_delivered": true,
+  "history_reload": true,
+  "widths": [
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "js_errors": [],
+  "provider": "LOCAL stub SSE + real curl, NOT live AnyModel"
+}

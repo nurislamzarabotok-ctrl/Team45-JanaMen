@@ -1,0 +1,351 @@
+{
+  "status": "PASS",
+  "engine": "Chromium with iPhone 13 emulation, NOT physical Safari",
+  "cases": [
+    "mobile request submitted",
+    "desktop manager -> mobile status without reload",
+    "desktop HR -> mobile completion without reload",
+    "shared task status synchronized without reload",
+    "editing preserved during polling; reduced-height modal usable",
+    "Gemini chat through LOCAL Google-shaped stub",
+    "public offline fallback; no API caches; online session resumed"
+  ],
+  "layouts": [
+    {
+      "width": 390,
+      "height": 844,
+      "page": "home",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "workspace",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "requests",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "academy",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "calendar",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "service",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "onboarding",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "assistant",
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "page": "notifications",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "home",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "workspace",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "requests",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "academy",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "calendar",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "service",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "onboarding",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "assistant",
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "page": "notifications",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "home",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "workspace",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "requests",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "academy",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "calendar",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "service",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "onboarding",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "assistant",
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "page": "notifications",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "home",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "workspace",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "requests",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "academy",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "calendar",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "service",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "onboarding",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "assistant",
+      "overflow": false
+    },
+    {
+      "width": 428,
+      "height": 926,
+      "page": "notifications",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "home",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "workspace",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "requests",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "academy",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "calendar",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "service",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "onboarding",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "assistant",
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "page": "notifications",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "home",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "workspace",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "requests",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "academy",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "calendar",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "service",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "onboarding",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "assistant",
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "page": "notifications",
+      "overflow": false
+    }
+  ],
+  "js_errors": [],
+  "cache_entries": [
+    "/offline.html",
+    "/offline.css",
+    "/manifest.webmanifest",
+    "/assets/apple-touch-icon.png",
+    "/assets/icon-192.png",
+    "/assets/icon-512.png",
+    "/assets/icon-maskable.png",
+    "/assets/jana-logo.svg"
+  ],
+  "external_provider": "LOCAL stub only"
+}

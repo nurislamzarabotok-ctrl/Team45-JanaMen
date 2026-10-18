@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "HR full menu scroll; no clipping; logout reachable; Escape unlocks",
+    "background polling suspended, foreground snapshot resumes within 900ms in local test",
+    "API works without AbortSignal.timeout",
+    "landscape form and submit reachable"
+  ],
+  "engine": "Chromium emulation only"
+}

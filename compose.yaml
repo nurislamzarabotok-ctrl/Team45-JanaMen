@@ -1,0 +1,15 @@
+services:
+  janamen:
+    build: .
+    ports:
+      - "127.0.0.1:8018:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      JANA_BIND: 0.0.0.0
+    volumes:
+      - ./data:/app/data
+      - ./GEMINI_KEY.txt:/app/GEMINI_KEY.txt:ro
+      - ./AI_KEY.txt:/app/AI_KEY.txt:ro
+    restart: unless-stopped

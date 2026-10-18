@@ -1,0 +1,5 @@
+# VPS/server deployment example; replace domain and configure DNS first.
+hr.example.com {
+    encode gzip
+    reverse_proxy 127.0.0.1:8018
+}

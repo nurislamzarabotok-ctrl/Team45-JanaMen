@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "question": "Привет",
+      "mode": "gemini"
+    },
+    {
+      "question": "Как изменить цвет фона?",
+      "mode": "gemini"
+    },
+    {
+      "question": "Если ИИ работает, скажи Ноу",
+      "mode": "gemini"
+    },
+    {
+      "question": "Проверка 429",
+      "mode": "error"
+    },
+    {
+      "question": "Как изменить цвет фона?",
+      "mode": "gemini"
+    }
+  ],
+  "history_roles": "user/model/user/model/user",
+  "history_reload": true,
+  "widths": [
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "js_errors": [],
+  "provider": "LOCAL Google-shaped HTTP stub via actual urllib; NOT live Google"
+}

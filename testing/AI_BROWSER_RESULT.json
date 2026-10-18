@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "q": "Привет!",
+      "mode": "help",
+      "sources": 0
+    },
+    {
+      "q": "Мои курсы",
+      "mode": "account",
+      "sources": 0
+    },
+    {
+      "q": "Как создать задачу?",
+      "mode": "anymodel",
+      "sources": 1
+    },
+    {
+      "q": "А где это?",
+      "mode": "anymodel",
+      "sources": 1
+    },
+    {
+      "q": "Напиши рецепт пиццы",
+      "mode": "no_answer",
+      "sources": 0
+    },
+    {
+      "q": "Проверка сбоя Workspace",
+      "mode": "extractive_fallback",
+      "sources": 1
+    },
+    {
+      "q": "Как передать файл коллеге?",
+      "mode": "anymodel",
+      "sources": 1
+    }
+  ],
+  "widths": [
+    {
+      "width": 360,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 412,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "javascript_errors": [],
+  "provider": "LOCAL SSE STUB via actual curl; NOT live AnyModel"
+}
